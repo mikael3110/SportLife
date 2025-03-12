@@ -13,8 +13,7 @@
 }
 
 * {
-    font-family: 'poppins', sans-serif
-    margin: 0;
+    font-family: 'poppins', sans-serif;
     padding: 0;
     box-sizing: border-box;
 }
@@ -26,3 +25,4 @@ html {
 body {
     background-color: var(--color-primary-1);
 }
+
