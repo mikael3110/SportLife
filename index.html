@@ -1,253 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SportLife - Loja de Roupas Esportivas</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+<script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
-    <header>
-        <nav id="navbar">
-            <a href="home">
-                <i class="fa-solid fa-person-walking"></i>
-            </a>
-            <ul id="nav-list">
-                <li class="nav-item active">
-                    <a href="#home">início</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#menu">Camisas</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#menu">Calças</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#menu">Calçados</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#testimonials">Avaliações dos produtos</a>
-                </li>
-            </ul>
-            <button class="btn-default">
-                Peça aqui
-            </button>
 
-            <button id="mobile-btn">
-                <i class="fa-solid fa-bars"></i>
-            </button>
-            </nav>
-            <div id="mobile-menu">
-                <ul id="mobile_nav_item">
-                    <li class="nav-item active">
-                        <a href="#home">início</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#menu">Camisas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#menu">Calças</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#menu">Calçados</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#testimonials">Avaliações dos produtos</a>
-                    </li>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">SportLife</div>
+            <nav>
+                <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Contato</a></li>
                 </ul>
-                <button class="btn-default">
-                    Peça aqui
-                </button>
-            </div>
-        </div>
+            </nav>
     </header>
 
-    <main id="content">
-        <section id="home">
-            <div class="shape"></div>
-            <div id="cta">
-                <h1 class="title">
-                    Para uma vida mais <span>ativa</span> e <span>saudavel</span> a cada dia.
-                </h1>
-                <p class="description">
-                    A melhor escolha para compra de itens esportivos!
-                </p>
-            </div>
-
-            <div id="banner">
-                <img src="Imagem 1.jpg" alt="arte que apresenta a diversidade de esportes">
-            </div>
-        </section>
-
-        <section id="menu">
-            <h2 class="section-title">Produtos</h2>
-            <h3 class="section-subtitle">Nossos principais produtos</h3>
-
-            <div id="produtos">
-                <div class="produto">
-                    <div class="produto-star">
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                    <img src="Camisa nike branca.jpg" alt="#" class="produto-image">
-                    <h3 class="produto-title">Camisa nike branca</h3>
-                    <span class="produto-descriçao">
-                        Camisa arregada e estilosa, perfeita para a pratica de exercicios e para dias quentes
-                    </span>
-                    <div class="produto-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>(1000+)</span>
-                    </div>
-                    <div class="produto-price">
-                        <h4>R$45,00</h4>
-                        <button class="btn-default">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </button>
-                    </div>
-                </div>
-
-                <div class="produto">
-                    <div class="produto-star">
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                    <img src="calça nike 1.avif" alt="#" class="produto-image">
-                    <h3 class="produto-title">Calça nike preta</h3>
-                    <span class="produto-descriçao">
-                        Calça confortavel e estilosa para treinar ou até sair.
-                    </span>
-                    <div class="produto-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>(1000+)</span>
-                    </div>
-                    <div class="produto-price">
-                        <h4>R$60,00</h4>
-                        <button class="btn-default">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </button>
-                    </div>
-                </div>
-
-                <div class="produto">
-                    <div class="produto-star">
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                    <img src="Nike air max.avif" alt="#" class="produto-image">
-                    <h3 class="produto-title">Nike air max</h3>
-                    <span class="produto-descriçao">
-                        Um tenis bonito, bom para caminhar e para sair por conta do seu estilo e por se destacar entre outors tenis
-                    </span>
-                    <div class="produto-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>(1000+)</span>
-                    </div>
-                    <div class="produto-price">
-                        <h4><R1350></R1350>350,00</h4>
-                        <button class="btn-default">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="testimonials"> 
-            <img src="logo aleatoria.zip" alt="#" id="testimonials-produtos">
-            <div id="testimonials-content">
-                <h2 class="section-title">
-                    Depoimentos
-                </h2>
-                <h3 class="section-subtitle">
-                    O que falam sobre nossa empresa
-                </h3>
-
-                <div id="feedbacks">
-                    <div class="feedback">
-                        <img src="Pessoa 1.jpg" alt="#" class="feedback-avatar">
-                        <div class="feedback-content">
-                            <p>
-                                <strong>Amanda Arruda</strong>
-                                <span>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </span>
-                            </p>
-                            <p>
-                                Boa loja, com variedade de produtos e preços justos. E otimo tempo de entrega,. Voltarei para comprar mais.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div id="feedbacks">
-                        <div class="feedback">
-                            <img src="Pessoa 1.jpg" alt="#" class="feedback-avatar">
-                            <div class="feedback-content">
-                                <p>
-                                    <strong>Nicolas Ribeiro</strong>
-                                    <span>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </span>
-                                </p>
-                                <p>
-                                    Boa loja, com estoque bem variado e otimo atendimento pelas redes socias. Com certeza comprarei aqui de novo!
-                                </p>
-                            </div>
-                        </div>
-                </div>
-
-                <button class="btn-default">
-                    Ver mais Avaliações
-                </button>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div id="footer_item">
-            <span id="copyright">
-                Copyright &copy; 2025 - Todos os direitos reservados - SportLife
-            </span>
-            <div class="social-media-buttons">
-                <a 
-                    href="https://api.whatsapp.com/send?phone=5565999999999&text=Quero%20fazer%20um%20pedido!" 
-                    target="_blank" 
-                    rel="noopener no-referrer"
-                    >
-                    <i class="fa-brands fa-whatsapp"></i>
-                    </a>
-                    <a 
-                    href="https://www.instagram.com/wanderson_a_timoteo/" 
-                    target="_blank" 
-                    rel="noopener no-referrer"
-                    >
-                    <i class="fa-brands fa-instagram"></i>
-                    </a>
-                    <a 
-                    href="https://www.facebook.com/wanderson.a.timoteo" 
-                    target="_blank" 
-                    rel="noopener no-referrer"
-                    >
-                    <i class="fa-brands fa-facebook"></i>
-                </a>
-            </div>
+        <button id="mobile_btn">
+            <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <!-- Menu para dispositivos moveis -->
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+            <li class="nav-item active">
+                <a href="#home">Início</a>
+            </li>
+            <li class="nav-item">
+                <a href="#menu">Cardápio</a>
+            </li>
+            <li class="nav-item">
+                <a href="#testimonials">Avaliações</a>
+            </li>
+            </ul>
+            <button class="btn-default">
+            Peça aqui
+            </button>
         </div>
+        </header>
+
+    <!-- Banner -->
+    <section class="banner">
+        <h1>Bem-vindo à SportLife!</h1>
+            <p>Encontre as melhores roupas para seus treinos e vivencias!</p>
+        <button onclick="mostrarOfertas()">Ver produtos</button>
+    </section>
+
+    <!-- Produtos -->
+    <section class="produtos">
+        <h2>Produtos em Destaque</h2>
+            <div class="grid-produtos">
+                <div class="produto">
+                    <img src="Imagens/Camisa nike branca.jpg" alt="Camisa Esportiva">
+                    <h3>Camisa Esportiva nike</h3>
+                    <p>Conforto e performance para seu treino.</p>
+                    <button onclick="adicionarAoCarrinho('Camisa Esportiva')">Adicionar ao Carrinho</button>
+                </div>
+                
+                <div class="produto">
+                    <img src="Imagens/calça nike 1.avif" alt="Calça de Corrida">
+                    <h3>Calça</h3>
+                    <p>Durabilidade e conforto para seus treinos.</p>
+                    <button onclick="adicionarAoCarrinho('Calça de Corrida')">Adicionar ao Carrinho</button>
+                </div>
+                
+                <div class="produto">
+                    <img src="Imagens/Boné.jpg" alt="Calça de Corrida">
+                    <h3>Boné</h3>
+                    <p>Para correr mesmo com sol.</p>
+                    <button onclick="adicionarAoCarrinho('Calça de Corrida')">Adicionar ao Carrinho</button>
+                </div>
+                
+                <div class="produto">
+                    <img src="Imagens/Nike air max.avif" alt="Calça de Corrida">
+                    <h3>Air max</h3>
+                    <p>Um tenis bonito e estiloso para treinar.</p>
+                    <button onclick="adicionarAoCarrinho('Calça de Corrida')">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+    </section>
+        
+    <!-- Rodapé -->
+    <footer>
+    <div class="social-media-buttons">
+        <a href="https://api.whatsapp.com/send?phone=5565999999999&text=Quero%20fazer%20um%20pedido!" target="_blank">WhatsApp</a>
+        <a href="https://www.instagram.com/sportyshop" target="_blank">Instagram</a>
+        <a href="https://www.facebook.com/sportyshop" target="_blank">Facebook</a>
+    </div>
+    <p>&copy; 2025 SportLife - Todos os direitos reservados.</p>
     </footer>
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
